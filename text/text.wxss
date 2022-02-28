@@ -1,0 +1,166 @@
+/* packageG/pages/call_table/call_table.wxss */
+page {
+   background-color: #fff;
+}
+
+.main_1 {
+   height: 90rpx;
+   /* margin-top: 20rpx; */
+   border-top: 20rpx solid #F2F2F2;
+}
+.main_1_1 {
+   height: 90rpx;
+   /* margin-top: 20rpx; */
+   border-top: 2rpx solid #F2F2F2;
+}
+
+.main_2 {
+   height: 615rpx;
+   border-top: 2rpx solid #F2F2F2;
+
+}
+
+.main_2_1 {
+   font-size: 30rpx;
+   height: 70rpx;
+   line-height: 60rpx;
+}
+
+textarea {
+   width: 100%;
+}
+
+.pictrue {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 35rpx;
+   /* height: 170rpx; */
+   margin: 30rpx 0 ;
+}
+
+.pictures image {
+   width: 140rpx;
+   height: 140rpx;
+}
+
+/* .picture>view:nth-child(3n+2){
+   margin:10rpx 20rpx;
+ } */
+
+.pictrue .pictures {
+   width: 140rpx;
+   height: 140rpx;
+}
+
+.pictures {
+   position: relative;
+   margin: 0 15rpx 15rpx 15rpx;
+}
+
+.uploadPictures {
+   width: 140rpx;
+   height: 140rpx;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #989eb4;
+   background: #EEEFF3;
+   border-radius: 8px;
+}
+
+.bgcWrite {
+   position: absolute;
+   top: -15rpx;
+   right: -15rpx;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 90rpx;
+   line-height: 90rpx;
+   margin-bottom: 50rpx;
+   /* background-color: antiquewhite; */
+
+}
+
+.footer_2 {
+   color: #fff;
+   width: 90%;
+   margin: 0 auto;
+   border-radius: 45rpx;
+   text-align: center;
+   font-size: 28rpx;
+   background-color: #4861FC;
+   letter-spacing:2rpx;
+   box-shadow: 0 2rpx 6rpx rgba(2, 0, 179, 0.39);
+}
+.colc{
+   color: #ccc;
+}
+.col3{
+   color: #333;
+}
+.mask{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 111;
+ }
+ .mask .weui-icon{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+ }
+
+ .weui-half-screen-dialog {
+   padding: unset
+}
+
+.weui-half-screen-dialog__hd {
+   padding: 0 32rpx;
+}
+
+.weui-half-screen-dialog__hd .weui-icon-btn {
+   right: 32rpx;
+}
+
+.weui-half-screen-dialog__ft {
+   padding: unset;
+}
+
+.weui-half-screen-dialog__bd {
+   padding-bottom: unset;
+}
+
+.weui-half-screen-dialog__hd__side+.weui-half-screen-dialog__hd__main {
+   padding: unset;
+}
+
+.weui-half-screen-dialog__hd {
+   height: 90rpx;
+   border-bottom: 2rpx solid #eee;
+
+}
+
+.weui-half-screen-dialog__title {
+   font-weight: 400;
+}
+
+.weui-half-screen-dialog__hd__main+.weui-half-screen-dialog__hd__side .weui-icon-btn {
+   right: -60rpx;
+}
+.dialogSearch{
+   background-color: #F5F5F5;
+   border-radius: 45rpx;
+   width: 88%;
+   height: 64rpx;
+}
+.padding{
+   padding: 0 20rpx 0 8rpx;
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "mp-cell": "weui-miniprogram/cell/cell",
+    "mp-cells": "weui-miniprogram/cells/cells",
+    "mp-icon": "weui-miniprogram/icon/icon",
+    "mp-half-screen-dialog": "weui-miniprogram/half-screen-dialog/half-screen-dialog",
+    "select-dialog":"../../../components/selectdialog/selectdialog"
+  }
+}
